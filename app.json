@@ -1,7 +1,21 @@
 {
   "name": "Is it snowing in Zagreb",
-  "description": "Just for fun. Made with love in CLT. Inspired by jden/snowchatt.",
+  "description": "Just for fun. Made with love in CLT. Inspired by jden/snowchatt",
+  "logo": "https://i.imgur.com/odDO1Fx.png",
   "repository": "https://github.com/schlos/is-it-snowing",
-  "logo": "https://github.com/codeforamerica/is-it-snowing/blob/master/public/images/lighthouse.png",
-  "keywords": ["snow", "weather", "dynamic"]
+  "keywords": ["snow", "weather"],
+  "env": {
+    "WUNDERGROUND_API_KEY": {
+      "description": "Your Weather Underground API key",
+      "required": true
+    },
+    "CITY": {
+      "description": "Your city",
+      "required": true
+    },
+    "STATE": {
+      "description": "Your state or county",
+      "required": true
+    }
+  }
 }
