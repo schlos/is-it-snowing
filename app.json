@@ -3,5 +3,22 @@
   "description": "Just for fun. Made with love in CLT. Inspired by jden/snowchatt.",
   "repository": "https://github.com/schlos/is-it-snowing",
   "logo": "https://github.com/codeforamerica/is-it-snowing/blob/master/public/images/lighthouse.png",
-  "keywords": ["snow", "weather", "dynamic"]
+  "keywords": ["snow", "weather", "dynamic"],
+  "scripts": {
+    "postdeploy": "shotgun"
+  },
+  "env": {
+    "WUNDERGROUND_API_KEY": {
+      "description": "Your Weather Underground API key.",
+      "value": ""
+    },
+    "CITY": {
+      "description": "Your city name",
+      "value": ""
+    },
+    "STATE": {
+      "description": "Your county name",
+      "value": ""
+    }
+  },
 }
