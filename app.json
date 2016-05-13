@@ -18,7 +18,6 @@
     }
   },
   "scripts": {
-    "postdeploy": "bundle install"
     "postdeploy": "shotgun"
   }
 }
