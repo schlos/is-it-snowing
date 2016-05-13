@@ -16,5 +16,9 @@
             "description": "County",
             "value": "Grad Zagreb"
     }
+  },
+  "scripts": {
+    "postdeploy": "bundle install"
+    "postdeploy": "shotgun"
   }
 }
