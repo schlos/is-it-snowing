@@ -4,18 +4,9 @@
   "repository": "https://github.com/schlos/is-it-snowing",
   "keywords": ["snow", "weather", "dynamic"]
   "env": {
-    "RAILS_ENV": "production",
     "WUNDERGROUND_API_KEY": {
             "description": "Your API key",
             "value": ""
-    },
-    "CITY": {
-            "description": "City",
-            "value": "Zagreb"
-    },
-    "STATE": {
-            "description": "County",
-            "value": "Grad Zagreb"
     }
   },
   "scripts": {
