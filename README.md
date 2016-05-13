@@ -2,6 +2,8 @@
 
 Made with :heart: in CLT. Inspired by [jden/snowchatt](https://github.com/jden/snowchatt).
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/schlos/is-it-snowing)
+
 ## Development
 
 Register for an api key at [http://www.wunderground.com/weather/api](http://www.wunderground.com/weather/api).
